@@ -1,0 +1,1702 @@
+{
+    "_uid": 0,
+    "_isVue": true,
+    "$options": {
+        "components": {},
+        "directives": {},
+        "filters": {},
+        "el": "#tokenized-0000",
+        "methods": {},
+        "computed": {},
+        "mounted": [null],
+        "staticRenderFns": []
+    },
+    "$children": [{
+            "_uid": 3,
+            "_isVue": true,
+            "$options": {
+                "_parentVnode": {
+                    "tag": "vue-component-3-footer-layout",
+                    "data": {
+                        "hook": {}
+                    },
+                    "elm": {},
+                    "componentOptions": {
+                        "tag": "footer-layout"
+                    },
+                    "raw": false,
+                    "isStatic": false,
+                    "isRootInsert": true,
+                    "isComment": false,
+                    "isCloned": false,
+                    "isOnce": false,
+                    "isAsyncPlaceholder": false
+                },
+                "_parentListeners": {},
+                "_componentTag": "footer-layout",
+                "staticRenderFns": [null]
+            },
+            "$children": [],
+            "$refs": {},
+            "_watcher": {
+                "deep": false,
+                "user": false,
+                "lazy": false,
+                "sync": false,
+                "id": 7,
+                "active": true,
+                "dirty": false,
+                "deps": [],
+                "newDeps": [],
+                "depIds": {},
+                "newDepIds": {},
+                "expression": ""
+            },
+            "_inactive": null,
+            "_directInactive": false,
+            "_isMounted": true,
+            "_isDestroyed": false,
+            "_isBeingDestroyed": false,
+            "_events": {},
+            "_hasHookEvent": false,
+            "_vnode": {
+                "tag": "div",
+                "data": {
+                    "attrs": {
+                        "id": "footerItem"
+                    }
+                },
+                "children": [{
+                        "tag": "div",
+                        "data": {
+                            "attrs": {
+                                "id": "credit"
+                            }
+                        },
+                        "children": [{
+                                "tag": "img",
+                                "data": {
+                                    "attrs": {
+                                        "src": "/assets/images/dial_icon.png",
+                                        "height": "25px",
+                                        "width": "25px"
+                                    }
+                                },
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "b",
+                                "data": {
+                                    "attrs": {
+                                        "id": "dialText"
+                                    }
+                                },
+                                "children": [{
+                                        "text": "16247",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "elm": {},
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": false,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }
+                ],
+                "key": "__static__0",
+                "raw": false,
+                "isStatic": true,
+                "isRootInsert": true,
+                "isComment": false,
+                "isCloned": false,
+                "isOnce": false,
+                "isAsyncPlaceholder": false
+            },
+            "_staticTrees": [null],
+            "$slots": {},
+            "$scopedSlots": {},
+            "_watchers": [null],
+            "_data": {}
+        }, {
+            "_uid": 4,
+            "_isVue": true,
+            "$options": {
+                "_parentVnode": {
+                    "tag": "vue-component-4-header-layout",
+                    "data": {
+                        "hook": {}
+                    },
+                    "elm": {
+                        "_prevClass": "header verticalCenter"
+                    },
+                    "componentOptions": {
+                        "tag": "header-layout"
+                    },
+                    "raw": false,
+                    "isStatic": false,
+                    "isRootInsert": true,
+                    "isComment": false,
+                    "isCloned": false,
+                    "isOnce": false,
+                    "isAsyncPlaceholder": false
+                },
+                "_componentTag": "header-layout",
+                "staticRenderFns": [null]
+            },
+            "$children": [],
+            "$refs": {},
+            "_watcher": {
+                "deep": false,
+                "user": false,
+                "lazy": false,
+                "sync": false,
+                "id": 8,
+                "active": true,
+                "dirty": false,
+                "deps": [],
+                "newDeps": [],
+                "depIds": {},
+                "newDepIds": {},
+                "expression": ""
+            },
+            "_inactive": null,
+            "_directInactive": false,
+            "_isMounted": true,
+            "_isDestroyed": false,
+            "_isBeingDestroyed": false,
+            "_events": {},
+            "_hasHookEvent": false,
+            "_vnode": {
+                "tag": "div",
+                "data": {
+                    "staticClass": "header verticalCenter"
+                },
+                "children": [{
+                        "tag": "div",
+                        "data": {
+                            "staticClass": "logo"
+                        },
+                        "children": [{
+                                "tag": "img",
+                                "data": {
+                                    "attrs": {
+                                        "src": "/assets/images/bkash_payment_logo.png",
+                                        "alt": "bKash"
+                                    }
+                                },
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "elm": {
+                            "_prevClass": "logo"
+                        },
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": false,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }
+                ],
+                "key": "__static__0",
+                "raw": false,
+                "isStatic": true,
+                "isRootInsert": true,
+                "isComment": false,
+                "isCloned": false,
+                "isOnce": false,
+                "isAsyncPlaceholder": false
+            },
+            "_staticTrees": [null],
+            "$slots": {},
+            "$scopedSlots": {},
+            "_watchers": [null],
+            "_data": {}
+        }, {
+            "_uid": 5,
+            "_isVue": true,
+            "$options": {
+                "_parentVnode": {
+                    "tag": "vue-component-6-payment-info",
+                    "data": {
+                        "attrs": {},
+                        "hook": {}
+                    },
+                    "elm": {
+                        "_prevClass": "top verticalCenter"
+                    },
+                    "componentOptions": {
+                        "propsData": {
+                            "merchantImageSrc": "https://img.alicdn.com/tfs/TB16pagmPMZ7e4jSZFOXXX7epXa-128-128.png",
+                            "orgSrc": "Daraz"
+                        },
+                        "tag": "payment-info"
+                    },
+                    "raw": false,
+                    "isStatic": false,
+                    "isRootInsert": true,
+                    "isComment": false,
+                    "isCloned": false,
+                    "isOnce": false,
+                    "isAsyncPlaceholder": false
+                },
+                "_componentTag": "payment-info",
+                "_propKeys": ["amount", "invoiceNumber", "merchantImageSrc", "orgSrc"],
+                "staticRenderFns": []
+            },
+            "$children": [],
+            "$refs": {},
+            "_watcher": {
+                "deep": false,
+                "user": false,
+                "lazy": false,
+                "sync": false,
+                "id": 14,
+                "active": true,
+                "dirty": false,
+                "deps": [{
+                        "id": 37,
+                        "subs": [null]
+                    }, {
+                        "id": 36,
+                        "subs": [null, {
+                                "deep": false,
+                                "user": false,
+                                "lazy": true,
+                                "sync": false,
+                                "id": 10,
+                                "active": true,
+                                "dirty": false,
+                                "deps": [null],
+                                "newDeps": [],
+                                "depIds": {},
+                                "newDepIds": {},
+                                "expression": ""
+                            }
+                        ]
+                    }, {
+                        "id": 38,
+                        "subs": [null]
+                    }, {
+                        "id": 35,
+                        "subs": [{
+                                "deep": false,
+                                "user": false,
+                                "lazy": true,
+                                "sync": false,
+                                "id": 11,
+                                "active": true,
+                                "dirty": false,
+                                "deps": [null],
+                                "newDeps": [],
+                                "depIds": {},
+                                "newDepIds": {},
+                                "expression": "",
+                                "value": false
+                            }, null, {
+                                "deep": false,
+                                "user": false,
+                                "lazy": true,
+                                "sync": false,
+                                "id": 12,
+                                "active": true,
+                                "dirty": false,
+                                "deps": [null],
+                                "newDeps": [],
+                                "depIds": {},
+                                "newDepIds": {},
+                                "expression": "",
+                                "value": false
+                            }, {
+                                "deep": false,
+                                "user": false,
+                                "lazy": true,
+                                "sync": false,
+                                "id": 13,
+                                "active": true,
+                                "dirty": false,
+                                "deps": [null],
+                                "newDeps": [],
+                                "depIds": {},
+                                "newDepIds": {},
+                                "expression": "",
+                                "value": false
+                            }
+                        ]
+                    }
+                ],
+                "newDeps": [],
+                "depIds": {},
+                "newDepIds": {},
+                "expression": ""
+            },
+            "_inactive": null,
+            "_directInactive": false,
+            "_isMounted": true,
+            "_isDestroyed": false,
+            "_isBeingDestroyed": false,
+            "_events": {},
+            "_hasHookEvent": false,
+            "_vnode": {
+                "tag": "div",
+                "data": {
+                    "staticClass": "top verticalCenter"
+                },
+                "children": [{
+                        "tag": "div",
+                        "data": {
+                            "staticClass": "payment-box"
+                        },
+                        "children": [{
+                                "tag": "div",
+                                "data": {
+                                    "staticClass": "flex-logo"
+                                },
+                                "children": [{
+                                        "tag": "div",
+                                        "data": {
+                                            "staticClass": "avatar"
+                                        },
+                                        "children": [{
+                                                "tag": "img",
+                                                "data": {
+                                                    "attrs": {
+                                                        "src": "https://img.alicdn.com/tfs/TB16pagmPMZ7e4jSZFOXXX7epXa-128-128.png",
+                                                        "alt": "avatar"
+                                                    }
+                                                },
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": "avatar"
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "flex-logo"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "div",
+                                "data": {
+                                    "staticClass": "flex-merchant details"
+                                },
+                                "children": [{
+                                        "tag": "h4",
+                                        "data": {
+                                            "style": "margin: auto",
+                                            "normalizedStyle": {
+                                                "margin": "auto"
+                                            }
+                                        },
+                                        "children": [{
+                                                "text": "Daraz",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": "",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": true,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "tag": "p",
+                                        "data": {
+                                            "staticClass": "p1"
+                                        },
+                                        "children": [{
+                                                "text": "",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": "p1"
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "flex-merchant details"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "div",
+                                "data": {
+                                    "staticClass": "flex-amount"
+                                },
+                                "children": [{
+                                        "text": "",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": true,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": "",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": true,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": "",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": true,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "flex-amount"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "elm": {
+                            "_prevClass": "payment-box"
+                        },
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": false,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }
+                ],
+                "raw": false,
+                "isStatic": false,
+                "isRootInsert": true,
+                "isComment": false,
+                "isCloned": false,
+                "isOnce": false,
+                "isAsyncPlaceholder": false
+            },
+            "_staticTrees": null,
+            "$slots": {},
+            "$scopedSlots": {},
+            "_watchers": [{
+                    "deep": false,
+                    "user": false,
+                    "lazy": true,
+                    "sync": false,
+                    "id": 9,
+                    "active": true,
+                    "dirty": true,
+                    "deps": [],
+                    "newDeps": [],
+                    "depIds": {},
+                    "newDepIds": {},
+                    "expression": ""
+                }, null, null, null, null, null],
+            "_props": {
+                "merchantImageSrc": "https://img.alicdn.com/tfs/TB16pagmPMZ7e4jSZFOXXX7epXa-128-128.png",
+                "orgSrc": "Daraz"
+            },
+            "_data": {},
+            "_computedWatchers": {}
+        }, {
+            "_uid": 12,
+            "_isVue": true,
+            "$options": {
+                "_parentVnode": {
+                    "tag": "vue-component-11-wallet-input",
+                    "data": {
+                        "attrs": {},
+                        "hook": {}
+                    },
+                    "elm": {},
+                    "componentOptions": {
+                        "propsData": {
+                            "isLoading": false,
+                            "apiVersion": "v1.2.0-beta",
+                            "paymentId": "TR00008B1649437983709",
+                            "wallet": "1234",
+                            "resendOtpUrl": "https://checkoutbg.pay.bka.sh/resendOtpTokenized",
+                            "walletValidationUrl": "https://checkoutbg.pay.bka.sh/validateWalletTokenized"
+                        },
+                        "listeners": {},
+                        "tag": "wallet-input"
+                    },
+                    "raw": false,
+                    "isStatic": false,
+                    "isRootInsert": true,
+                    "isComment": false,
+                    "isCloned": false,
+                    "isOnce": false,
+                    "isAsyncPlaceholder": false
+                },
+                "_componentTag": "wallet-input",
+                "_propKeys": ["isLoading", "apiVersion", "paymentId", "wallet", "resendOtpUrl", "walletValidationUrl"],
+                "staticRenderFns": [null]
+            },
+            "$children": [{
+                    "_uid": 13,
+                    "_isVue": true,
+                    "$options": {
+                        "_parentVnode": {
+                            "tag": "vue-component-8-numeric-input",
+                            "data": {
+                                "attrs": {
+                                    "id": "wallet"
+                                },
+                                "hook": {}
+                            },
+                            "elm": {
+                                "_prevClass": "form-control",
+                                "_value": "1234",
+                                "_vModifiers": {}
+                            },
+                            "componentOptions": {
+                                "propsData": {
+                                    "disabled": false,
+                                    "maxlength": "11",
+                                    "value": "1234",
+                                    "placeholder": "e.g 01XXXXXXXXX"
+                                },
+                                "listeners": {},
+                                "tag": "numeric-input"
+                            },
+                            "raw": false,
+                            "isStatic": false,
+                            "isRootInsert": true,
+                            "isComment": false,
+                            "isCloned": false,
+                            "isOnce": false,
+                            "isAsyncPlaceholder": false
+                        },
+                        "_componentTag": "numeric-input",
+                        "_propKeys": ["disabled", "type", "maxlength", "value", "placeholder"],
+                        "staticRenderFns": []
+                    },
+                    "$children": [],
+                    "$refs": {},
+                    "_watcher": {
+                        "deep": false,
+                        "user": false,
+                        "lazy": false,
+                        "sync": false,
+                        "id": 30,
+                        "active": true,
+                        "dirty": false,
+                        "deps": [{
+                                "id": 114,
+                                "subs": [null]
+                            }, {
+                                "id": 116,
+                                "subs": [{
+                                        "deep": false,
+                                        "user": true,
+                                        "lazy": false,
+                                        "sync": false,
+                                        "id": 29,
+                                        "active": true,
+                                        "dirty": false,
+                                        "deps": [null],
+                                        "newDeps": [],
+                                        "depIds": {},
+                                        "newDepIds": {},
+                                        "expression": "",
+                                        "value": "1234"
+                                    }, null]
+                            }, {
+                                "id": 117,
+                                "subs": [null]
+                            }, {
+                                "id": 115,
+                                "subs": [null]
+                            }, {
+                                "id": 113,
+                                "subs": [null]
+                            }
+                        ],
+                        "newDeps": [],
+                        "depIds": {},
+                        "newDepIds": {},
+                        "expression": ""
+                    },
+                    "_inactive": null,
+                    "_directInactive": false,
+                    "_isMounted": true,
+                    "_isDestroyed": false,
+                    "_isBeingDestroyed": false,
+                    "_events": {
+                        "input": [null],
+                        "on-enter": [null]
+                    },
+                    "_hasHookEvent": false,
+                    "_vnode": {
+                        "tag": "input",
+                        "data": {
+                            "directives": [{
+                                    "name": "model",
+                                    "rawName": "v-model",
+                                    "value": "1234",
+                                    "expression": "value",
+                                    "def": {},
+                                    "oldValue": ""
+                                }
+                            ],
+                            "ref": "input",
+                            "staticClass": "form-control",
+                            "attrs": {
+                                "id": "ash",
+                                "pattern": "[0-9]*",
+                                "inputmode": "numeric",
+                                "placeholder": "e.g 01XXXXXXXXX",
+                                "maxlength": "11",
+                                "autocomplete": "off",
+                                "disabled": false,
+                                "required": "",
+                                "type": "text"
+                            },
+                            "domProps": {
+                                "value": "1234"
+                            },
+                            "on": {},
+                            "hook": {}
+                        },
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": true,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    },
+                    "_staticTrees": null,
+                    "$slots": {},
+                    "$scopedSlots": {},
+                    "_watchers": [null, null],
+                    "_props": {
+                        "disabled": false,
+                        "maxlength": "11",
+                        "value": "1234",
+                        "placeholder": "e.g 01XXXXXXXXX"
+                    },
+                    "_data": {}
+                }, {
+                    "_uid": 14,
+                    "_isVue": true,
+                    "$options": {
+                        "_parentVnode": {
+                            "tag": "vue-component-7-input-action",
+                            "data": {
+                                "attrs": {},
+                                "hook": {}
+                            },
+                            "elm": {},
+                            "componentOptions": {
+                                "propsData": {
+                                    "isProcessing": false,
+                                    "confirmButtonText": "Confirm"
+                                },
+                                "listeners": {},
+                                "tag": "input-action"
+                            },
+                            "raw": false,
+                            "isStatic": false,
+                            "isRootInsert": true,
+                            "isComment": false,
+                            "isCloned": false,
+                            "isOnce": false,
+                            "isAsyncPlaceholder": false
+                        },
+                        "_componentTag": "input-action",
+                        "_propKeys": ["isProcessing", "confirmButtonText"],
+                        "staticRenderFns": []
+                    },
+                    "$children": [],
+                    "$refs": {},
+                    "_watcher": {
+                        "deep": false,
+                        "user": false,
+                        "lazy": false,
+                        "sync": false,
+                        "id": 31,
+                        "active": true,
+                        "dirty": false,
+                        "deps": [{
+                                "id": 121,
+                                "subs": [null]
+                            }
+                        ],
+                        "newDeps": [],
+                        "depIds": {},
+                        "newDepIds": {},
+                        "expression": ""
+                    },
+                    "_inactive": null,
+                    "_directInactive": false,
+                    "_isMounted": true,
+                    "_isDestroyed": false,
+                    "_isBeingDestroyed": false,
+                    "_events": {
+                        "on-close": [null],
+                        "on-confirm": [null]
+                    },
+                    "_hasHookEvent": false,
+                    "_vnode": {
+                        "tag": "div",
+                        "children": [{
+                                "tag": "div",
+                                "data": {
+                                    "staticClass": "buttonAction"
+                                },
+                                "children": [{
+                                        "tag": "button",
+                                        "data": {
+                                            "class": {
+                                                "processing": false
+                                            },
+                                            "attrs": {
+                                                "type": "button",
+                                                "id": "close_button"
+                                            },
+                                            "on": {}
+                                        },
+                                        "children": [{
+                                                "text": "CLOSE\n        ",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": ""
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "tag": "button",
+                                        "data": {
+                                            "class": {
+                                                "processing": false
+                                            },
+                                            "attrs": {
+                                                "type": "button",
+                                                "id": "confirm_button"
+                                            },
+                                            "on": {}
+                                        },
+                                        "children": [{
+                                                "text": "CONFIRM\n        ",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": ""
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "buttonAction"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": true,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    },
+                    "_staticTrees": null,
+                    "$slots": {},
+                    "$scopedSlots": {},
+                    "_watchers": [null],
+                    "_props": {
+                        "isProcessing": false,
+                        "confirmButtonText": "Confirm"
+                    },
+                    "_data": {}
+                }
+            ],
+            "$refs": {},
+            "_watcher": {
+                "deep": false,
+                "user": false,
+                "lazy": false,
+                "sync": false,
+                "id": 28,
+                "active": true,
+                "dirty": false,
+                "deps": [{
+                        "id": 102,
+                        "subs": [null]
+                    }, {
+                        "id": 108,
+                        "subs": [null, {
+                                "deep": false,
+                                "user": false,
+                                "lazy": true,
+                                "sync": false,
+                                "id": 27,
+                                "active": true,
+                                "dirty": false,
+                                "deps": [{
+                                        "id": 99,
+                                        "subs": [null, null]
+                                    }, null],
+                                "newDeps": [],
+                                "depIds": {},
+                                "newDepIds": {},
+                                "expression": "",
+                                "value": false
+                            }
+                        ]
+                    }, {
+                        "id": 106,
+                        "subs": [null]
+                    }, null],
+                "newDeps": [],
+                "depIds": {},
+                "newDepIds": {},
+                "expression": ""
+            },
+            "_inactive": null,
+            "_directInactive": false,
+            "_isMounted": true,
+            "_isDestroyed": false,
+            "_isBeingDestroyed": false,
+            "_events": {
+                "wallet-change": [null],
+                "close": [null],
+                "validation-fail": [null],
+                "validation-success": [null]
+            },
+            "_hasHookEvent": false,
+            "_vnode": {
+                "tag": "div",
+                "children": [{
+                        "tag": "div",
+                        "data": {
+                            "attrs": {
+                                "id": "inputHolder"
+                            }
+                        },
+                        "children": [{
+                                "tag": "label",
+                                "data": {
+                                    "staticClass": "infoText",
+                                    "attrs": {
+                                        "for": "wallet"
+                                    }
+                                },
+                                "children": [{
+                                        "text": "Your bKash Account number",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": true,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "infoText"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, null, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "span",
+                                "data": {
+                                    "staticClass": "help-inline text-white",
+                                    "domProps": {
+                                        "innerHTML": ""
+                                    }
+                                },
+                                "elm": {
+                                    "_prevClass": "help-inline text-white"
+                                },
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "span",
+                                "data": {
+                                    "staticClass": "infoText"
+                                },
+                                "children": [{
+                                        "text": "By clicking on ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "tag": "span",
+                                        "data": {
+                                            "staticClass": "confirmText"
+                                        },
+                                        "children": [{
+                                                "text": "Confirm",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": "confirmText"
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": ", you are agreeing to the ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "tag": "b",
+                                        "data": {
+                                            "staticClass": "textButton"
+                                        },
+                                        "children": [{
+                                                "tag": "a",
+                                                "data": {
+                                                    "attrs": {
+                                                        "href": "https://www.bkash.com/tokenized_checkout",
+                                                        "target": "_blank"
+                                                    }
+                                                },
+                                                "children": [{
+                                                        "text": "terms & conditions",
+                                                        "elm": {},
+                                                        "raw": false,
+                                                        "isStatic": false,
+                                                        "isRootInsert": false,
+                                                        "isComment": false,
+                                                        "isCloned": false,
+                                                        "isOnce": false,
+                                                        "isAsyncPlaceholder": false
+                                                    }
+                                                ],
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": false,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {
+                                            "_prevClass": "textButton"
+                                        },
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": false,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }
+                                ],
+                                "elm": {
+                                    "_prevClass": "infoText"
+                                },
+                                "key": "__static__0",
+                                "raw": false,
+                                "isStatic": true,
+                                "isRootInsert": false,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "elm": {},
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": true,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }, {
+                        "text": " ",
+                        "elm": {},
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": true,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }, null],
+                "raw": false,
+                "isStatic": false,
+                "isRootInsert": true,
+                "isComment": false,
+                "isCloned": false,
+                "isOnce": false,
+                "isAsyncPlaceholder": false
+            },
+            "_staticTrees": [null],
+            "$slots": {},
+            "$scopedSlots": {},
+            "_watchers": [{
+                    "deep": false,
+                    "user": false,
+                    "lazy": true,
+                    "sync": false,
+                    "id": 26,
+                    "active": true,
+                    "dirty": true,
+                    "deps": [],
+                    "newDeps": [],
+                    "depIds": {},
+                    "newDepIds": {},
+                    "expression": ""
+                }, null, null],
+            "_props": {
+                "isLoading": false,
+                "apiVersion": "v1.2.0-beta",
+                "paymentId": "TR00008B1649437983709",
+                "wallet": "1234",
+                "resendOtpUrl": "https://checkoutbg.pay.bka.sh/resendOtpTokenized",
+                "walletValidationUrl": "https://checkoutbg.pay.bka.sh/validateWalletTokenized"
+            },
+            "_data": {
+                "message": "",
+                "walletValidationAttemptCount": 0,
+                "isActionInProgress": false,
+                "invalidWalletRegexMessage": "Put a valid bKash Account Number",
+                "internalErrorMessage": "Internal Error"
+            },
+            "internalErrorMessage": "Internal Error",
+            "invalidWalletRegexMessage": "Put a valid bKash Account Number",
+            "isActionInProgress": false,
+            "walletValidationAttemptCount": 0,
+            "message": "",
+            "_computedWatchers": {}
+        }
+    ],
+    "$refs": {},
+    "_watcher": {
+        "deep": false,
+        "user": false,
+        "lazy": false,
+        "sync": false,
+        "id": 4,
+        "active": true,
+        "dirty": false,
+        "deps": [{
+                "id": 16,
+                "subs": [null]
+            }, {
+                "id": 11,
+                "subs": [null]
+            }, {
+                "id": 10,
+                "subs": [null]
+            }, {
+                "id": 4,
+                "subs": [null]
+            }, {
+                "id": 17,
+                "subs": [null]
+            }, {
+                "id": 19,
+                "subs": [null]
+            }, {
+                "id": 20,
+                "subs": [null]
+            }, {
+                "id": 12,
+                "subs": [{
+                        "deep": false,
+                        "user": false,
+                        "lazy": true,
+                        "sync": false,
+                        "id": 1,
+                        "active": true,
+                        "dirty": false,
+                        "deps": [null],
+                        "newDeps": [],
+                        "depIds": {},
+                        "newDepIds": {},
+                        "expression": "",
+                        "value": "https://checkoutbg.pay.bka.sh/resendOtpTokenized"
+                    }, null, {
+                        "deep": false,
+                        "user": false,
+                        "lazy": true,
+                        "sync": false,
+                        "id": 2,
+                        "active": true,
+                        "dirty": false,
+                        "deps": [null],
+                        "newDeps": [],
+                        "depIds": {},
+                        "newDepIds": {},
+                        "expression": "",
+                        "value": "https://checkoutbg.pay.bka.sh/validateWalletTokenized"
+                    }, {
+                        "deep": false,
+                        "user": false,
+                        "lazy": true,
+                        "sync": false,
+                        "id": 3,
+                        "active": true,
+                        "dirty": false,
+                        "deps": [null],
+                        "newDeps": [],
+                        "depIds": {},
+                        "newDepIds": {},
+                        "expression": "",
+                        "value": "https://checkoutbg.pay.bka.sh/validateOTPTokenized"
+                    }
+                ]
+            }, {
+                "id": 5,
+                "subs": [null]
+            }, {
+                "id": 6,
+                "subs": [null]
+            }
+        ],
+        "newDeps": [],
+        "depIds": {},
+        "newDepIds": {},
+        "expression": ""
+    },
+    "_inactive": null,
+    "_directInactive": false,
+    "_isMounted": true,
+    "_isDestroyed": false,
+    "_isBeingDestroyed": false,
+    "_events": {},
+    "_hasHookEvent": false,
+    "_vnode": {
+        "tag": "div",
+        "data": {
+            "attrs": {
+                "id": "tokenized-0000"
+            }
+        },
+        "children": [{
+                "tag": "div",
+                "data": {
+                    "staticClass": "container"
+                },
+                "children": [{
+                        "tag": "div",
+                        "data": {
+                            "staticStyle": {
+                                "width": "100%"
+                            },
+                            "normalizedStyle": {}
+                        },
+                        "children": [null, {
+                                "text": " ",
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }, {
+                                "tag": "div",
+                                "children": [{
+                                        "tag": "div",
+                                        "children": [null, {
+                                                "text": " ",
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": true,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }, {
+                                                "tag": "div",
+                                                "data": {
+                                                    "attrs": {
+                                                        "id": "form"
+                                                    }
+                                                },
+                                                "children": [{
+                                                        "tag": "form",
+                                                        "data": {
+                                                            "staticStyle": {
+                                                                "margin": "0px"
+                                                            },
+                                                            "attrs": {
+                                                                "action": "#",
+                                                                "autocomplete": "off",
+                                                                "method": "post",
+                                                                "id": "tokenized_form"
+                                                            },
+                                                            "on": {},
+                                                            "normalizedStyle": {}
+                                                        },
+                                                        "children": [{
+                                                                "tag": "div",
+                                                                "data": {
+                                                                    "staticClass": "row form-item"
+                                                                },
+                                                                "children": [null],
+                                                                "elm": {
+                                                                    "_prevClass": "row form-item"
+                                                                },
+                                                                "raw": false,
+                                                                "isStatic": false,
+                                                                "isRootInsert": true,
+                                                                "isComment": false,
+                                                                "isCloned": false,
+                                                                "isOnce": false,
+                                                                "isAsyncPlaceholder": false
+                                                            }, {
+                                                                "text": " ",
+                                                                "elm": {},
+                                                                "raw": false,
+                                                                "isStatic": false,
+                                                                "isRootInsert": true,
+                                                                "isComment": false,
+                                                                "isCloned": false,
+                                                                "isOnce": false,
+                                                                "isAsyncPlaceholder": false
+                                                            }, {
+                                                                "text": "",
+                                                                "elm": {},
+                                                                "raw": false,
+                                                                "isStatic": false,
+                                                                "isRootInsert": true,
+                                                                "isComment": true,
+                                                                "isCloned": false,
+                                                                "isOnce": false,
+                                                                "isAsyncPlaceholder": false
+                                                            }, {
+                                                                "text": " ",
+                                                                "elm": {},
+                                                                "raw": false,
+                                                                "isStatic": false,
+                                                                "isRootInsert": true,
+                                                                "isComment": false,
+                                                                "isCloned": false,
+                                                                "isOnce": false,
+                                                                "isAsyncPlaceholder": false
+                                                            }, {
+                                                                "text": "",
+                                                                "elm": {},
+                                                                "raw": false,
+                                                                "isStatic": false,
+                                                                "isRootInsert": true,
+                                                                "isComment": true,
+                                                                "isCloned": false,
+                                                                "isOnce": false,
+                                                                "isAsyncPlaceholder": false
+                                                            }
+                                                        ],
+                                                        "elm": {},
+                                                        "raw": false,
+                                                        "isStatic": false,
+                                                        "isRootInsert": true,
+                                                        "isComment": false,
+                                                        "isCloned": false,
+                                                        "isOnce": false,
+                                                        "isAsyncPlaceholder": false
+                                                    }
+                                                ],
+                                                "elm": {},
+                                                "raw": false,
+                                                "isStatic": false,
+                                                "isRootInsert": true,
+                                                "isComment": false,
+                                                "isCloned": false,
+                                                "isOnce": false,
+                                                "isAsyncPlaceholder": false
+                                            }
+                                        ],
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": true,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, {
+                                        "text": " ",
+                                        "elm": {},
+                                        "raw": false,
+                                        "isStatic": false,
+                                        "isRootInsert": true,
+                                        "isComment": false,
+                                        "isCloned": false,
+                                        "isOnce": false,
+                                        "isAsyncPlaceholder": false
+                                    }, null],
+                                "elm": {},
+                                "raw": false,
+                                "isStatic": false,
+                                "isRootInsert": true,
+                                "isComment": false,
+                                "isCloned": false,
+                                "isOnce": false,
+                                "isAsyncPlaceholder": false
+                            }
+                        ],
+                        "elm": {},
+                        "raw": false,
+                        "isStatic": false,
+                        "isRootInsert": true,
+                        "isComment": false,
+                        "isCloned": false,
+                        "isOnce": false,
+                        "isAsyncPlaceholder": false
+                    }
+                ],
+                "elm": {
+                    "_prevClass": "container"
+                },
+                "raw": false,
+                "isStatic": false,
+                "isRootInsert": true,
+                "isComment": false,
+                "isCloned": false,
+                "isOnce": false,
+                "isAsyncPlaceholder": false
+            }
+        ],
+        "elm": {},
+        "raw": false,
+        "isStatic": false,
+        "isRootInsert": true,
+        "isComment": false,
+        "isCloned": false,
+        "isOnce": false,
+        "isAsyncPlaceholder": false
+    },
+    "_staticTrees": null,
+    "$slots": {},
+    "_watchers": [null, null, null, null],
+    "_data": {
+        "lastWindow": "",
+        "showWallet": true,
+        "showOTP": false,
+        "showCancel": false,
+        "message": "",
+        "genericErrorMessage": "Invalid Request",
+        "internalErrorMessage": "Internal Error",
+        "merchantImageSrc": "https://img.alicdn.com/tfs/TB16pagmPMZ7e4jSZFOXXX7epXa-128-128.png",
+        "organizationName": "Daraz",
+        "baseURL": "https://checkoutbg.pay.bka.sh",
+        "successURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=success",
+        "failureURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=failure",
+        "cancelURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=cancel",
+        "isProcessing": false,
+        "wallet": "1234",
+        "hash": "",
+        "paymentID": "TR00008B1649437983709",
+        "apiVersion": "v1.2.0-beta"
+    },
+    "apiVersion": "v1.2.0-beta",
+    "paymentID": "TR00008B1649437983709",
+    "hash": "",
+    "wallet": "1234",
+    "isProcessing": false,
+    "cancelURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=cancel",
+    "failureURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=failure",
+    "successURL": "https://open-bd.alipay.com/api/alipay/bd/channel/gn-bkash-dl/binding-callback.htm?paymentID=TR00008B1649437983709&status=success",
+    "baseURL": "https://checkoutbg.pay.bka.sh",
+    "organizationName": "Daraz",
+    "merchantImageSrc": "https://img.alicdn.com/tfs/TB16pagmPMZ7e4jSZFOXXX7epXa-128-128.png",
+    "internalErrorMessage": "Internal Error",
+    "genericErrorMessage": "Invalid Request",
+    "message": "",
+    "showCancel": false,
+    "showOTP": false,
+    "showWallet": true,
+    "lastWindow": "",
+    "_computedWatchers": {},
+    "resendOtpURL": "https://checkoutbg.pay.bka.sh/resendOtpTokenized",
+    "validateWalletURL": "https://checkoutbg.pay.bka.sh/validateWalletTokenized",
+    "validateOtpURL": "https://checkoutbg.pay.bka.sh/validateOTPTokenized"
+}
