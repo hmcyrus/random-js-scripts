@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="bKash PGW Tokenized Agreement Only Page"/>
+    <meta name="author" content="Tahniat Ashraf Priyam"/>
+    <title>Payment only</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/assets/css/bootstrap.min.css'>
+    <link rel="stylesheet" href='/assets/css/tokenized.css'>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico/favicon-32x32.png"/>
+    <script defer src="/assets/js/relic.script.prod.js"></script>
+    
+</head>
+<body class="verticalCenterBody">
+<div id="tokenized-0011">
+    <div class="container">
+        <div style="width: 100%;">
+            <header-layout></header-layout>
+            <div>
+                <feedback class="row form-item" v-if="isProcessing">
+                    <div v-html="message"></div>
+                </feedback>
+                <div v-else>
+
+                    <payment-info :org-src="organizationName" :merchant-image-src="merchantImageSrc"
+                                  :invoice-number="invoiceNumber" :amount="amount"></payment-info>
+                    <div id="form">
+                        <form action="#" autocomplete="off" method="post" id="tokenized_form" v-on:submit.prevent
+                              style="margin: 0px">
+                            <div v-if="showWallet" class="row form-item">
+                                <wallet-input
+                                        :wallet-validation-url="validateWalletURL"
+                                        :resend-otp-url="resendOtpURL"
+                                        :wallet="wallet"
+                                        :payment-id="paymentID"
+                                        :api-version="apiVersion"
+                                        :is-loading="isProcessing"
+                                        v-on:wallet-change="(wallet) => { this.wallet = wallet }"
+                                        v-on:validation-success="showOTPValidation"
+                                        v-on:validation-fail="paymentFailed"
+                                        v-on:close="showCancelModal"
+                                >
+                                </wallet-input>
+                            </div>
+
+                            <div v-if="showOTP" class="row form-item">
+                                <otp-input
+                                        v-on:close="showCancelModal"
+                                        :validate-otp-url="validateOtpURL"
+                                        :resend-otp-url="resendOtpURL"
+                                        :wallet="wallet"
+                                        :payment-id="paymentID"
+                                        :api-version="apiVersion"
+                                        v-on:otp-success="showConfirmPin"
+                                        v-on:otp-fail="paymentFailed"
+                                ></otp-input>
+                            </div>
+
+                            <div v-if="showPIN" class="row form-item">
+                                <pin-input
+                                        :wallet="wallet"
+                                        :aes-key="encKey"
+                                        :rsa-public-key="rsaKey"
+                                        :pin-nonce="nonce"
+                                        :validate-pin-url="validatePinURL"
+                                        :payment-id="paymentID"
+                                        :api-version="apiVersion"
+                                        v-on:close="showCancelModal"
+                                        v-on:pin-success="paymentSuccessful"
+                                        v-on:pin-fail="paymentFailed"
+                                ></pin-input>
+                            </div>
+
+                            <div v-if="showCancel" class="row form-item">
+                                <cancel-modal v-on:exit="cancelPayment"
+                                              v-on:close-modal="hideCancelModal">
+                                    <template v-slot:header>Payment Cancellation</template>
+                                    <template v-slot:body>Are you sure you want to cancel this payment?
+                                    </template>
+                                </cancel-modal>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <footer-layout></footer-layout>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/js/axios.0.19.2.min.js"></script>
+<script src="/assets/js/master.1.0.js"></script>
+<script src="/assets/js/vue.2.6.11.min.js"></script>
+<script src="/assets/js/v1.2.0-beta/0011.pack.js"></script>
+</body>
+</html>
